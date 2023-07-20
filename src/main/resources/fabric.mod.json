@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "untitled",
+  "version": "${version}",
+  "name": "Sky",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/yazijiao/Sky"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/untitled/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.duckstar.untitled.client.SkyClient"
+    ],
+    "main": [
+      "net.duckstar.untitled.Sky"
+    ],
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
